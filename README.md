@@ -18,7 +18,7 @@ pod "AUModalController"
 ```
 
 ## Author
-Hubert Drąg, hubert.drag@appunite.com
+Hubert Drąg, hubert.drag@appunite.com <br>
 Krzysztof Kapitan, krzysztof.kapitan@appunite.com
 
 ## License
