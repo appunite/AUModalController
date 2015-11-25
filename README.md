@@ -1,6 +1,6 @@
 # AUModalController
 
-[![CI Status](http://img.shields.io/travis/Krzysztof/AUModalController.svg?style=flat)](https://travis-ci.org/Krzysztof/AUModalController)
+[![CI Status](https://travis-ci.org/appunite/AUModalController.svg?branch=master)](https://travis-ci.org/appunite/AUModalController)
 
 ## Usage
 
