@@ -1,9 +1,6 @@
 # AUModalController
 
 [![CI Status](http://img.shields.io/travis/Krzysztof/AUModalController.svg?style=flat)](https://travis-ci.org/Krzysztof/AUModalController)
-[![Version](https://img.shields.io/cocoapods/v/AUModalController.svg?style=flat)](http://cocoapods.org/pods/AUModalController)
-[![License](https://img.shields.io/cocoapods/l/AUModalController.svg?style=flat)](http://cocoapods.org/pods/AUModalController)
-[![Platform](https://img.shields.io/cocoapods/p/AUModalController.svg?style=flat)](http://cocoapods.org/pods/AUModalController)
 
 ## Usage
 
@@ -21,8 +18,8 @@ pod "AUModalController"
 ```
 
 ## Author
-
-Krzysztof, krzysztof.kapitan@gmail.com
+Hubert Drąg, hubert.drag@appunite.com
+Krzysztof Kapitan, krzysztof.kapitan@appunite.com
 
 ## License
 
