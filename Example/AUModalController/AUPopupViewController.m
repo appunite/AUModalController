@@ -14,18 +14,12 @@
 
 @implementation AUPopupViewController
 
-- (void)viewWillAppear:(BOOL)animated{
-    [super viewWillAppear:animated];
-}
-
--(void)viewWillDisappear:(BOOL)animated{
-    [super viewWillDisappear:animated];
-}
 - (IBAction)okButtonAction:(id)sender {
     if ([self.dismissDelegate respondsToSelector:@selector(dismissViewController:)]) {
         [self.dismissDelegate dismissViewController:self];
     }
 }
+
 - (IBAction)cancelButtonAction:(id)sender {
     if ([self.dismissDelegate respondsToSelector:@selector(dismissViewController:)]) {
         [self.dismissDelegate dismissViewController:self];

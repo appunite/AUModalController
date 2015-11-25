@@ -8,6 +8,9 @@
 
 #import "NSObject+Transition.h"
 
+#define IS_IOS_8() (floor(NSFoundationVersionNumber) > NSFoundationVersionNumber_iOS_7_1)
+
+
 @implementation NSObject (Transition)
 
 - (UIView *)fromViewInTransitionContext:(id<UIViewControllerContextTransitioning>)transitionContext {

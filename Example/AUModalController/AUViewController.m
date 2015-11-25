@@ -25,6 +25,7 @@
 }
 
 - (void)presentPopup:(AUModalViewController *)popup {
+    
     self.modalAnimator = [AUModalAnimator new];
     AUModalController *modalController = [[AUModalController alloc] initWithContentViewController:popup];
     modalController.modalSize = CGSizeMake(320.f, 580.f);

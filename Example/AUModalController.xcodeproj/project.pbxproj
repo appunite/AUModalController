@@ -100,11 +100,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02CDC3951C06089000D0A355 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				02CDC38E1C05FA0400D0A355 /* WelcomeModal.storyboard */,
+				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				02CDC3931C0602A200D0A355 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		02CDC3961C06089F00D0A355 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5A5195388D20070C39A /* AUViewController.h */,
+				6003F5A6195388D20070C39A /* AUViewController.m */,
+				02CDC3901C05FAA100D0A355 /* AUPopupViewController.h */,
+				02CDC3911C05FAA100D0A355 /* AUPopupViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		02CDC3971C0608A700D0A355 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				6003F59C195388D20070C39A /* AUAppDelegate.h */,
+				6003F59D195388D20070C39A /* AUAppDelegate.m */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
-				6003F593195388D20070C39A /* Example for AUModalController */,
+				6003F593195388D20070C39A /* Example */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
@@ -134,22 +164,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6003F593195388D20070C39A /* Example for AUModalController */ = {
+		6003F593195388D20070C39A /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				02CDC38E1C05FA0400D0A355 /* WelcomeModal.storyboard */,
-				6003F59C195388D20070C39A /* AUAppDelegate.h */,
-				6003F59D195388D20070C39A /* AUAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* AUViewController.h */,
-				6003F5A6195388D20070C39A /* AUViewController.m */,
-				02CDC3901C05FAA100D0A355 /* AUPopupViewController.h */,
-				02CDC3911C05FAA100D0A355 /* AUPopupViewController.m */,
-				02CDC3931C0602A200D0A355 /* LaunchScreen.storyboard */,
+				02CDC3971C0608A700D0A355 /* Application */,
+				02CDC3961C06089F00D0A355 /* Controllers */,
+				02CDC3951C06089000D0A355 /* Storyboards */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
-			name = "Example for AUModalController";
+			name = Example;
 			path = AUModalController;
 			sourceTree = "<group>";
 		};
