@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'AUModalController_Example', :exclusive => true do
+  pod "AUModalController", :path => "../"
+end
+
+target 'AUModalController_Tests', :exclusive => true do
+  pod "AUModalController", :path => "../"
+
+  
+end
