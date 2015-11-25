@@ -1,0 +1,25 @@
+{
+  "name": "AUModalController",
+  "version": "0.1.0",
+  "summary": "A short description of AUModalController.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/AUModalController",
+  "license": "MIT",
+  "authors": {
+    "Krzysztof": "krzysztof.kapitan@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/AUModalController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "AUModalController": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

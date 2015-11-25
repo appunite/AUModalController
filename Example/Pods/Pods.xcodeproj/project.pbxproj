@@ -1,0 +1,829 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0576E1CB79B73267B1D2F6E1E51F0659 /* NSObject+Transition.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C6886136CAF74E37052DC4518EAD3CE /* NSObject+Transition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EBBD7B4438C29DFF29BE2A4DE565A36 /* Pods-AUModalController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50DA6E1884BC18DD8FF38A06D5170EF3 /* Pods-AUModalController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13461EC099C085564862FEA5025A1E98 /* AUModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DC0B96E615482AC58CE7F2A5AD1985 /* AUModalViewController.m */; };
+		166073797FACF5577CE22AAC48E7A4FB /* AUModalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07532C1E08A8F0605B0F0EAE16E5AA60 /* AUModalView.m */; };
+		1F646E6642BD3C5404EF47B186BC2729 /* AUModalDismissDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F13CCBB914113CD1F2458EBF1D88A2C /* AUModalDismissDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20545B35D2E243FAFFB9B97987C3DA06 /* AUModalView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FB09C88F2834E77824F8B4842F993CE /* AUModalView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28C545F912238B5587E4CD3347F32121 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		433D6AB2169C73A3680155EB0F8A403B /* UIViewController+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = ED6E47641B347FEC35B4902AF07C1CCA /* UIViewController+Snapshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48CF4E4C097AA49550C556CB157D3C7C /* AUModalViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 63B0BAD56A9D81F52C3C7DDF341D0059 /* AUModalViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		566D02AB64F7D86B4CF4141622480A58 /* AUModalController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E514BEC6310F284EDDD5A7D456428F /* AUModalController-dummy.m */; };
+		5F5C0FD1F2BE841CECB6317E9619BC16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		7FFBBC0D245B8ECA6293054E25326D05 /* AUModalController.h in Headers */ = {isa = PBXBuildFile; fileRef = 96430C6C8F2AE70D8088FB5BA593304F /* AUModalController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9657CAC43360B865E56DB92DA61BCD80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		9BD2C3C9D5D68310475DB23B83AAD9D6 /* Pods-AUModalController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBDF8A35104D2D1FC0DDDC1AE110BD1 /* Pods-AUModalController_Tests-dummy.m */; };
+		AD87DE92D846464BA0DB0E81138DB553 /* UIViewController+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = FE268FE28AFD1813D18288E0E40221BC /* UIViewController+Snapshot.m */; };
+		B4E57D426284BCA15831CBFC11C2103C /* Pods-AUModalController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2C20B5582A3747EE60D073A1D91807 /* Pods-AUModalController_Example-dummy.m */; };
+		C16589C107D50368116830FFEDE41A60 /* AUModalController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B417C525CB784516C9888003D789EEB9 /* AUModalController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3FEC1F358E09F8AED56FBA4119B9A5E /* AUModalAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0CCCF61256AD0271FFAE0DDEAAC7E6 /* AUModalAnimator.m */; };
+		C4AA67F8A47CA0A161F022A8C0D0C657 /* Pods-AUModalController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E98285A4EB57B9EC64C39A68F304E49 /* Pods-AUModalController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD18241158971863C88AA121C422F942 /* NSObject+Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFD01948422BB4C3CD9B66618DE3145 /* NSObject+Transition.m */; };
+		D8AAE78F59B575C8F91725E4B87F24BB /* AUModalAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = CF105D5C3A08C8F0B555793C30C63BC4 /* AUModalAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCF12E741FFC580A5F2AB890ED64EBF9 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBCE900F0D7FB3492DAF6C83C80B769 /* ReplaceMe.m */; };
+		EED773D66A7A541B9C7BD2EEEE9F2825 /* AUModalController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2E6E6EF889BC7359B2718DEC4FDCC8EE /* AUModalController.bundle */; };
+		F98C613B1B8F592E86715F6D2B332E9E /* AUModalController.m in Sources */ = {isa = PBXBuildFile; fileRef = F210158A64ACCEF8AD0657F764DC6D74 /* AUModalController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4081C8DBF6A3BDB152EB698E9FF564F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48BC29977446EEFFAB67A8C4216B0D29;
+			remoteInfo = "AUModalController-AUModalController";
+		};
+		4E6988571D1B50F6B3FD1ACC853C15F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59071202CD9E79E42CC57FFE70D83E5D;
+			remoteInfo = AUModalController;
+		};
+		AC171DE43F3839D1B6E18E34D46E76D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59071202CD9E79E42CC57FFE70D83E5D;
+			remoteInfo = AUModalController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07532C1E08A8F0605B0F0EAE16E5AA60 /* AUModalView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AUModalView.m; sourceTree = "<group>"; };
+		08A6B1F5522AD82F76AE17E144F846A9 /* Pods-AUModalController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AUModalController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0C0CCCF61256AD0271FFAE0DDEAAC7E6 /* AUModalAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AUModalAnimator.m; sourceTree = "<group>"; };
+		2DBCE900F0D7FB3492DAF6C83C80B769 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		2E6E6EF889BC7359B2718DEC4FDCC8EE /* AUModalController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AUModalController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3031EB341FBAF0803902EAB394F8C1D6 /* Pods-AUModalController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AUModalController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		375910CD9A9EB396020110FDD5C2DE14 /* Pods-AUModalController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AUModalController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3DFD01948422BB4C3CD9B66618DE3145 /* NSObject+Transition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Transition.m"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		437EA7519E95E0AC2AF502C970938295 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CE4572926C489A2DFB89FC8A5DB6B65 /* Pods-AUModalController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AUModalController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4F13CCBB914113CD1F2458EBF1D88A2C /* AUModalDismissDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AUModalDismissDelegate.h; sourceTree = "<group>"; };
+		50DA6E1884BC18DD8FF38A06D5170EF3 /* Pods-AUModalController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AUModalController_Example-umbrella.h"; sourceTree = "<group>"; };
+		5C6886136CAF74E37052DC4518EAD3CE /* NSObject+Transition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+Transition.h"; sourceTree = "<group>"; };
+		5CB37E6AFDAD8D913EEA9FA2F45DDDE8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60E514BEC6310F284EDDD5A7D456428F /* AUModalController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AUModalController-dummy.m"; sourceTree = "<group>"; };
+		63B0BAD56A9D81F52C3C7DDF341D0059 /* AUModalViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AUModalViewController.h; sourceTree = "<group>"; };
+		6721E63FCC7AFEB729D624649582122A /* Pods_AUModalController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AUModalController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68404FDD7C1E5939EB26521093DCBDED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E98285A4EB57B9EC64C39A68F304E49 /* Pods-AUModalController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AUModalController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		72AD087762E373A94A749C8B27D218C9 /* Pods-AUModalController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AUModalController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		73C3B82B2258A98330C21134BF213CF2 /* Pods_AUModalController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AUModalController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E2C20B5582A3747EE60D073A1D91807 /* Pods-AUModalController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AUModalController_Example-dummy.m"; sourceTree = "<group>"; };
+		808702D434E5C2F3F8A4058E97A2F65C /* AUModalController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AUModalController.xcconfig; sourceTree = "<group>"; };
+		8DBE790313DB07103E8709AD93B87E25 /* AUModalController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AUModalController.modulemap; sourceTree = "<group>"; };
+		8FB09C88F2834E77824F8B4842F993CE /* AUModalView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AUModalView.h; sourceTree = "<group>"; };
+		93BCF4BA8B29AA75A381C779C8B0F11A /* AUModalController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AUModalController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96430C6C8F2AE70D8088FB5BA593304F /* AUModalController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AUModalController.h; sourceTree = "<group>"; };
+		9B1759D0049C23065C6732C4E1F11184 /* AUModalController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AUModalController-prefix.pch"; sourceTree = "<group>"; };
+		9FBD2999A0CF1C14D9D9BEC69F899AED /* Pods-AUModalController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AUModalController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B417C525CB784516C9888003D789EEB9 /* AUModalController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AUModalController-umbrella.h"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BDFEC1A7C5952AA56CE5BBC84009B1B3 /* Pods-AUModalController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AUModalController_Example.modulemap"; sourceTree = "<group>"; };
+		CF105D5C3A08C8F0B555793C30C63BC4 /* AUModalAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AUModalAnimator.h; sourceTree = "<group>"; };
+		D048992F63535F37DBD5D35DA2873BB9 /* Pods-AUModalController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AUModalController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D42CA2BDC41075602B5A1088F7D0A8D3 /* Pods-AUModalController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AUModalController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D5C39C5B3DF134A310A8DD8AE4692D60 /* Pods-AUModalController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AUModalController_Tests.modulemap"; sourceTree = "<group>"; };
+		D8DC0B96E615482AC58CE7F2A5AD1985 /* AUModalViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AUModalViewController.m; sourceTree = "<group>"; };
+		DEBDF8A35104D2D1FC0DDDC1AE110BD1 /* Pods-AUModalController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AUModalController_Tests-dummy.m"; sourceTree = "<group>"; };
+		E6798D470A7F9868CD244194D978E918 /* Pods-AUModalController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AUModalController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		EC4C1D2EC8E3F7FF8DB4A6675D198E76 /* Pods-AUModalController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AUModalController_Tests-resources.sh"; sourceTree = "<group>"; };
+		ED6E47641B347FEC35B4902AF07C1CCA /* UIViewController+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Snapshot.h"; sourceTree = "<group>"; };
+		EDAB398DFE85BDC9DABFAE8BE885DB5E /* Pods-AUModalController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AUModalController_Example-resources.sh"; sourceTree = "<group>"; };
+		F210158A64ACCEF8AD0657F764DC6D74 /* AUModalController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AUModalController.m; sourceTree = "<group>"; };
+		F4DB282C3441ADFACB10C14DEDEC0E74 /* Pods-AUModalController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AUModalController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FE268FE28AFD1813D18288E0E40221BC /* UIViewController+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Snapshot.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1ED112D4A3205FD28B245E024D1F9809 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C545F912238B5587E4CD3347F32121 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6036AC095AE51EF4E25F3580A0670BD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C36EC71B95047A1BB90DCB12B3DC68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F5C0FD1F2BE841CECB6317E9619BC16 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9999B6129C5A3526F08645C81A09C177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9657CAC43360B865E56DB92DA61BCD80 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		104D3AC0D86410132773BCA7EF3FDA0F /* AUModalController */ = {
+			isa = PBXGroup;
+			children = (
+				83CD212FF215D707E5ABF2A4230FD4B1 /* Pod */,
+				A0C910036DAEB1157524F12707776426 /* Support Files */,
+			);
+			name = AUModalController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		21DE70D4D120BBA74CFF3581921660AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E6E6EF889BC7359B2718DEC4FDCC8EE /* AUModalController.bundle */,
+				93BCF4BA8B29AA75A381C779C8B0F11A /* AUModalController.framework */,
+				73C3B82B2258A98330C21134BF213CF2 /* Pods_AUModalController_Example.framework */,
+				6721E63FCC7AFEB729D624649582122A /* Pods_AUModalController_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4182F10A097355D59CF81C02B2B120D5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				104D3AC0D86410132773BCA7EF3FDA0F /* AUModalController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4D927246049E40514BCD623C48B393F2 /* Pods-AUModalController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				68404FDD7C1E5939EB26521093DCBDED /* Info.plist */,
+				D5C39C5B3DF134A310A8DD8AE4692D60 /* Pods-AUModalController_Tests.modulemap */,
+				F4DB282C3441ADFACB10C14DEDEC0E74 /* Pods-AUModalController_Tests-acknowledgements.markdown */,
+				4CE4572926C489A2DFB89FC8A5DB6B65 /* Pods-AUModalController_Tests-acknowledgements.plist */,
+				DEBDF8A35104D2D1FC0DDDC1AE110BD1 /* Pods-AUModalController_Tests-dummy.m */,
+				E6798D470A7F9868CD244194D978E918 /* Pods-AUModalController_Tests-frameworks.sh */,
+				EC4C1D2EC8E3F7FF8DB4A6675D198E76 /* Pods-AUModalController_Tests-resources.sh */,
+				6E98285A4EB57B9EC64C39A68F304E49 /* Pods-AUModalController_Tests-umbrella.h */,
+				9FBD2999A0CF1C14D9D9BEC69F899AED /* Pods-AUModalController_Tests.debug.xcconfig */,
+				3031EB341FBAF0803902EAB394F8C1D6 /* Pods-AUModalController_Tests.release.xcconfig */,
+			);
+			name = "Pods-AUModalController_Tests";
+			path = "Target Support Files/Pods-AUModalController_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				4182F10A097355D59CF81C02B2B120D5 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				21DE70D4D120BBA74CFF3581921660AD /* Products */,
+				C5686CA03F8DBAC515E3EF0F96493D53 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		83CD212FF215D707E5ABF2A4230FD4B1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F6C27006F73B3A60CD3EC0A3FC833E68 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		A0C910036DAEB1157524F12707776426 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DBE790313DB07103E8709AD93B87E25 /* AUModalController.modulemap */,
+				808702D434E5C2F3F8A4058E97A2F65C /* AUModalController.xcconfig */,
+				60E514BEC6310F284EDDD5A7D456428F /* AUModalController-dummy.m */,
+				9B1759D0049C23065C6732C4E1F11184 /* AUModalController-prefix.pch */,
+				B417C525CB784516C9888003D789EEB9 /* AUModalController-umbrella.h */,
+				5CB37E6AFDAD8D913EEA9FA2F45DDDE8 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AUModalController";
+			sourceTree = "<group>";
+		};
+		B3578A0ABDC555D33504001C75E02D33 /* Pods-AUModalController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				437EA7519E95E0AC2AF502C970938295 /* Info.plist */,
+				BDFEC1A7C5952AA56CE5BBC84009B1B3 /* Pods-AUModalController_Example.modulemap */,
+				375910CD9A9EB396020110FDD5C2DE14 /* Pods-AUModalController_Example-acknowledgements.markdown */,
+				D048992F63535F37DBD5D35DA2873BB9 /* Pods-AUModalController_Example-acknowledgements.plist */,
+				7E2C20B5582A3747EE60D073A1D91807 /* Pods-AUModalController_Example-dummy.m */,
+				72AD087762E373A94A749C8B27D218C9 /* Pods-AUModalController_Example-frameworks.sh */,
+				EDAB398DFE85BDC9DABFAE8BE885DB5E /* Pods-AUModalController_Example-resources.sh */,
+				50DA6E1884BC18DD8FF38A06D5170EF3 /* Pods-AUModalController_Example-umbrella.h */,
+				08A6B1F5522AD82F76AE17E144F846A9 /* Pods-AUModalController_Example.debug.xcconfig */,
+				D42CA2BDC41075602B5A1088F7D0A8D3 /* Pods-AUModalController_Example.release.xcconfig */,
+			);
+			name = "Pods-AUModalController_Example";
+			path = "Target Support Files/Pods-AUModalController_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C5686CA03F8DBAC515E3EF0F96493D53 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3578A0ABDC555D33504001C75E02D33 /* Pods-AUModalController_Example */,
+				4D927246049E40514BCD623C48B393F2 /* Pods-AUModalController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F6C27006F73B3A60CD3EC0A3FC833E68 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CF105D5C3A08C8F0B555793C30C63BC4 /* AUModalAnimator.h */,
+				0C0CCCF61256AD0271FFAE0DDEAAC7E6 /* AUModalAnimator.m */,
+				96430C6C8F2AE70D8088FB5BA593304F /* AUModalController.h */,
+				F210158A64ACCEF8AD0657F764DC6D74 /* AUModalController.m */,
+				4F13CCBB914113CD1F2458EBF1D88A2C /* AUModalDismissDelegate.h */,
+				8FB09C88F2834E77824F8B4842F993CE /* AUModalView.h */,
+				07532C1E08A8F0605B0F0EAE16E5AA60 /* AUModalView.m */,
+				63B0BAD56A9D81F52C3C7DDF341D0059 /* AUModalViewController.h */,
+				D8DC0B96E615482AC58CE7F2A5AD1985 /* AUModalViewController.m */,
+				5C6886136CAF74E37052DC4518EAD3CE /* NSObject+Transition.h */,
+				3DFD01948422BB4C3CD9B66618DE3145 /* NSObject+Transition.m */,
+				2DBCE900F0D7FB3492DAF6C83C80B769 /* ReplaceMe.m */,
+				ED6E47641B347FEC35B4902AF07C1CCA /* UIViewController+Snapshot.h */,
+				FE268FE28AFD1813D18288E0E40221BC /* UIViewController+Snapshot.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9B0604847A0BA16C2936260809B05097 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EBBD7B4438C29DFF29BE2A4DE565A36 /* Pods-AUModalController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BEFE7EECF0D7F205F4BF964964C3F37 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4AA67F8A47CA0A161F022A8C0D0C657 /* Pods-AUModalController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6DC53A1761196867F5C6E014D412FB9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8AAE78F59B575C8F91725E4B87F24BB /* AUModalAnimator.h in Headers */,
+				C16589C107D50368116830FFEDE41A60 /* AUModalController-umbrella.h in Headers */,
+				7FFBBC0D245B8ECA6293054E25326D05 /* AUModalController.h in Headers */,
+				1F646E6642BD3C5404EF47B186BC2729 /* AUModalDismissDelegate.h in Headers */,
+				20545B35D2E243FAFFB9B97987C3DA06 /* AUModalView.h in Headers */,
+				48CF4E4C097AA49550C556CB157D3C7C /* AUModalViewController.h in Headers */,
+				0576E1CB79B73267B1D2F6E1E51F0659 /* NSObject+Transition.h in Headers */,
+				433D6AB2169C73A3680155EB0F8A403B /* UIViewController+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		48BC29977446EEFFAB67A8C4216B0D29 /* AUModalController-AUModalController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B85451503E7EF0571F3CCD071868F759 /* Build configuration list for PBXNativeTarget "AUModalController-AUModalController" */;
+			buildPhases = (
+				BC15DF8641DCB0CB1D1ADCE42EC0BA7A /* Sources */,
+				6036AC095AE51EF4E25F3580A0670BD8 /* Frameworks */,
+				49BED5EAA098AA0C1FE88F71194025B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AUModalController-AUModalController";
+			productName = "AUModalController-AUModalController";
+			productReference = 2E6E6EF889BC7359B2718DEC4FDCC8EE /* AUModalController.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		59071202CD9E79E42CC57FFE70D83E5D /* AUModalController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A5F8D499FAC327CBE961C3A42711CA6 /* Build configuration list for PBXNativeTarget "AUModalController" */;
+			buildPhases = (
+				DC9B8C5991EC7DECFCBA95C60718750F /* Sources */,
+				9999B6129C5A3526F08645C81A09C177 /* Frameworks */,
+				3FE68927200A9CF9FE6967A87B02D9D8 /* Resources */,
+				F6DC53A1761196867F5C6E014D412FB9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B566E166FA78A0845DF6A3FFEFCA9205 /* PBXTargetDependency */,
+			);
+			name = AUModalController;
+			productName = AUModalController;
+			productReference = 93BCF4BA8B29AA75A381C779C8B0F11A /* AUModalController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8A719746ED405F034AC151E01E62D5BA /* Pods-AUModalController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20CB2ABEC020A0D9694431D71B67FD0F /* Build configuration list for PBXNativeTarget "Pods-AUModalController_Example" */;
+			buildPhases = (
+				B8292B0BEF20FDD95CF9493CA5B516C4 /* Sources */,
+				1ED112D4A3205FD28B245E024D1F9809 /* Frameworks */,
+				9B0604847A0BA16C2936260809B05097 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD92CBBEB2E997B5D820BADF92C396A1 /* PBXTargetDependency */,
+			);
+			name = "Pods-AUModalController_Example";
+			productName = "Pods-AUModalController_Example";
+			productReference = 73C3B82B2258A98330C21134BF213CF2 /* Pods_AUModalController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C54F726DD134D699880ED06C09ABEC03 /* Pods-AUModalController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E3437EB8C16E244442CDFCE27E4CC4A /* Build configuration list for PBXNativeTarget "Pods-AUModalController_Tests" */;
+			buildPhases = (
+				B9252006B3C5D40EF214741868C54902 /* Sources */,
+				86C36EC71B95047A1BB90DCB12B3DC68 /* Frameworks */,
+				9BEFE7EECF0D7F205F4BF964964C3F37 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A715036F71C783DE8AA8D058C99B6D4A /* PBXTargetDependency */,
+			);
+			name = "Pods-AUModalController_Tests";
+			productName = "Pods-AUModalController_Tests";
+			productReference = 6721E63FCC7AFEB729D624649582122A /* Pods_AUModalController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 21DE70D4D120BBA74CFF3581921660AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59071202CD9E79E42CC57FFE70D83E5D /* AUModalController */,
+				48BC29977446EEFFAB67A8C4216B0D29 /* AUModalController-AUModalController */,
+				8A719746ED405F034AC151E01E62D5BA /* Pods-AUModalController_Example */,
+				C54F726DD134D699880ED06C09ABEC03 /* Pods-AUModalController_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FE68927200A9CF9FE6967A87B02D9D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED773D66A7A541B9C7BD2EEEE9F2825 /* AUModalController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49BED5EAA098AA0C1FE88F71194025B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8292B0BEF20FDD95CF9493CA5B516C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4E57D426284BCA15831CBFC11C2103C /* Pods-AUModalController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9252006B3C5D40EF214741868C54902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD2C3C9D5D68310475DB23B83AAD9D6 /* Pods-AUModalController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC15DF8641DCB0CB1D1ADCE42EC0BA7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC9B8C5991EC7DECFCBA95C60718750F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3FEC1F358E09F8AED56FBA4119B9A5E /* AUModalAnimator.m in Sources */,
+				566D02AB64F7D86B4CF4141622480A58 /* AUModalController-dummy.m in Sources */,
+				F98C613B1B8F592E86715F6D2B332E9E /* AUModalController.m in Sources */,
+				166073797FACF5577CE22AAC48E7A4FB /* AUModalView.m in Sources */,
+				13461EC099C085564862FEA5025A1E98 /* AUModalViewController.m in Sources */,
+				CD18241158971863C88AA121C422F942 /* NSObject+Transition.m in Sources */,
+				DCF12E741FFC580A5F2AB890ED64EBF9 /* ReplaceMe.m in Sources */,
+				AD87DE92D846464BA0DB0E81138DB553 /* UIViewController+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A715036F71C783DE8AA8D058C99B6D4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AUModalController;
+			target = 59071202CD9E79E42CC57FFE70D83E5D /* AUModalController */;
+			targetProxy = 4E6988571D1B50F6B3FD1ACC853C15F0 /* PBXContainerItemProxy */;
+		};
+		B566E166FA78A0845DF6A3FFEFCA9205 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AUModalController-AUModalController";
+			target = 48BC29977446EEFFAB67A8C4216B0D29 /* AUModalController-AUModalController */;
+			targetProxy = 4081C8DBF6A3BDB152EB698E9FF564F1 /* PBXContainerItemProxy */;
+		};
+		DD92CBBEB2E997B5D820BADF92C396A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AUModalController;
+			target = 59071202CD9E79E42CC57FFE70D83E5D /* AUModalController */;
+			targetProxy = AC171DE43F3839D1B6E18E34D46E76D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1D21FA32A677D0AAF1CDCF9686905764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 808702D434E5C2F3F8A4058E97A2F65C /* AUModalController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AUModalController/AUModalController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AUModalController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AUModalController/AUModalController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AUModalController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		427181943B9D9C9E1E6AB0020A1D2F5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08A6B1F5522AD82F76AE17E144F846A9 /* Pods-AUModalController_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AUModalController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AUModalController_Example/Pods-AUModalController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_AUModalController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		42C3682F102CA5E80D95E3106E55FF48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 808702D434E5C2F3F8A4058E97A2F65C /* AUModalController.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = AUModalController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		6443BAAD1E550F5388D87FE4EDFD5650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FBD2999A0CF1C14D9D9BEC69F899AED /* Pods-AUModalController_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AUModalController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AUModalController_Tests/Pods-AUModalController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_AUModalController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		899B5F11A77BC6A075A3B61DC4B16233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 808702D434E5C2F3F8A4058E97A2F65C /* AUModalController.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = AUModalController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B38E4CAA6BF776E8E2D487C2F287F77E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D42CA2BDC41075602B5A1088F7D0A8D3 /* Pods-AUModalController_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AUModalController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AUModalController_Example/Pods-AUModalController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_AUModalController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BADC64076848A9D9A5561ABB3AD4D9A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3031EB341FBAF0803902EAB394F8C1D6 /* Pods-AUModalController_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AUModalController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AUModalController_Tests/Pods-AUModalController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_AUModalController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BB662622207243D3A178831F67BFDDC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 808702D434E5C2F3F8A4058E97A2F65C /* AUModalController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AUModalController/AUModalController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AUModalController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AUModalController/AUModalController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AUModalController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20CB2ABEC020A0D9694431D71B67FD0F /* Build configuration list for PBXNativeTarget "Pods-AUModalController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				427181943B9D9C9E1E6AB0020A1D2F5A /* Debug */,
+				B38E4CAA6BF776E8E2D487C2F287F77E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E3437EB8C16E244442CDFCE27E4CC4A /* Build configuration list for PBXNativeTarget "Pods-AUModalController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6443BAAD1E550F5388D87FE4EDFD5650 /* Debug */,
+				BADC64076848A9D9A5561ABB3AD4D9A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A5F8D499FAC327CBE961C3A42711CA6 /* Build configuration list for PBXNativeTarget "AUModalController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D21FA32A677D0AAF1CDCF9686905764 /* Debug */,
+				BB662622207243D3A178831F67BFDDC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B85451503E7EF0571F3CCD071868F759 /* Build configuration list for PBXNativeTarget "AUModalController-AUModalController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42C3682F102CA5E80D95E3106E55FF48 /* Debug */,
+				899B5F11A77BC6A075A3B61DC4B16233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

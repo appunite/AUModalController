@@ -1,0 +1,6 @@
+framework module AUModalController {
+  umbrella header "AUModalController-umbrella.h"
+
+  export *
+  module * { export * }
+}

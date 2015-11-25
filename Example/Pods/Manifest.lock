@@ -1,0 +1,14 @@
+PODS:
+  - AUModalController (0.1.0)
+
+DEPENDENCIES:
+  - AUModalController (from `../`)
+
+EXTERNAL SOURCES:
+  AUModalController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AUModalController: 679fc574989ef77553aabce799122e786f35a9a0
+
+COCOAPODS: 0.39.0
